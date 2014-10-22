@@ -1,0 +1,5 @@
+
+	// $(document).ready()
+	$(".delete-user").on('ajax:complete', function(e){
+	  $(e.currentTarget).closest('tr').hide() 
+	});
